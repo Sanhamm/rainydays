@@ -100,27 +100,20 @@ nav .hamenu a {
     width: 100%;
     object-fit: cover;
 }
-main h1 {
-    text-align: center;
-    color: white;
-}
-
-.men h2 {
-    text-align: center;
-    color: white;
-}
-
+main h1,
+.men h2,
 .women h2 {
     text-align: center;
     color: white;
+    font-weight: 400;
 }
-
 
 footer {
     background-color: #204757E5;
     color: white;
     text-align: center;
     padding:25px;
+    margin: 0px;
 }
 
 footer a,
