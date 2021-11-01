@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #2A708C;
     display: flex;
@@ -12,6 +13,10 @@ header {
 
 h1,
 h2 {
+    font-family: sawarabi mincho, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
     font-family: sawarabi mincho, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -137,4 +142,3 @@ footer i {
     margin-right: 25px;
     padding: 10px;
 }
-
