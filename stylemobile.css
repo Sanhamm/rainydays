@@ -116,7 +116,7 @@ footer {
     background-color: #204757E5;
     padding: 35px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 footer a,
@@ -132,5 +132,6 @@ footer li {
 
 footer i {
     padding: 30px;
+    margin-left: 15px;
 }
 
