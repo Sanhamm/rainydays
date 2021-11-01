@@ -92,6 +92,7 @@ h1, h2 {
 .men {
     margin-top: 200px;
 }
+
 .men img {
     height: 296px;
     max-width: 375px; 
@@ -117,6 +118,7 @@ h1, h2 {
     text-align: center;
     justify-content: space-around;
 }
+
 .men, 
 .women {
     margin-top: 50px;
