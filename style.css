@@ -1,7 +1,30 @@
+
+
+
+body {
+    background-color: #EFEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+#hamburger {
+    display: none;
+}
+
+#cart {
+    display: none;
+}
+
+#buggi {
+    display: none;
+}
 header{
-background: #2A708C;
-height: 8rem;
-margin-top: 0px;
+    background: #2A708C;
+    height: 8rem;
+}
+
+h1, h2 {
+    font-family: sawarabi mincho, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #logo {
@@ -14,6 +37,7 @@ margin-top: 0px;
 .menu {
     color: white;
     list-style-type: none;
+    
 }
 
 .menu a {
@@ -29,15 +53,16 @@ margin-top: 0px;
 }
 
 .menu i {
-    padding-left: 150px;
-    font-size: 1.7rem;    
+    padding-left: 70px;
+    font-size: 1.7rem;
+    margin-left: 70px;
 }
 
 .news {
-height: 900px;
-background: rgba(42, 112, 140, 0.7);
-text-align: center;
-color: white;
+    height: 900px;
+    background: rgba(42, 112, 140, 0.7);
+    text-align: center;
+    color: white;
 }
 
 #image-news {
@@ -46,22 +71,80 @@ color: white;
     left: 230px;
     top: 173px;
     margin-top: 80px;
-    border-radius: 70px;    
+    border-radius: 70px;
+    object-fit: cover;
+    
 }
 
 
 .news h1 {
     margin-top: 0px;
+    font-weight: 400;
 }
 
-.men {  
-
+.men {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.men img {
+    height: 296px;
+    max-width: 375px; 
+    border-radius: 50px;
+    object-fit: cover;
+}
+.men h2 {
+    margin-left: 160px;
 }
 
 .women {
+    margin-top: 200px;
+}
 
+.women img {
+    height: 296px; 
+    min-width: 375px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.women h2 {
+    margin-left: 140px;
+}
+.sideomside{
+    display: flex;
+}
+.men, 
+.women {
+    margin-left: 330px;
+    margin-top: 50px;
 }
 
 footer {
+    background-color: #204757E5;
+    color: white;
+    height: 8rem;
+    margin-top: 30px;
+}
+
+footer li,
+footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
 
 }
+
+footer li {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-family: hind, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer i {
+    margin-left: 200px;
+    font-size: 1.7rem;
+}
+
+

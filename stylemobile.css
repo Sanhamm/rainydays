@@ -1,0 +1,120 @@
+body {
+    background-color: #2A708C;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2A708C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cart {
+}
+
+#cart2 {
+    display: none;
+}
+
+#logo {
+    max-width: 8rem;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#myside {
+    display: none;
+}
+
+nav .hamenu {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger:checked ~ nav .hamenu {
+    display: block;
+}
+
+nav .hamenu li {
+    list-style-type: none;
+    display: block;
+    padding:0;
+    margin: 0;
+    width: fit-content;
+}
+
+nav .hamenu a {
+    text-decoration: none;
+    color: white;
+    background-color: #2A708C;
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#buggi {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom:10px;
+    position: absolute;
+    width: 46px;
+    height: 39px;
+    left: 22px;
+    top: 28px;
+}
+
+#cart {
+    color: white;
+    position: absolute;
+    left: 85.07%;
+    right: 5.87%;
+    top: 3.3%;
+    bottom: 93.65%;
+    font-size: 2.4rem;
+}
+
+#image-news {
+    max-height: 305px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.men img  {
+    max-height: 305px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.women img {
+    max-height: 305px;
+    width: 100%;
+    object-fit: cover;
+}
+main h1 {
+    text-align: center;
+    color: white;
+}
+
+.men h2 {
+    text-align: center;
+    color: white;
+}
+
+.women h2 {
+    text-align: center;
+    color: white;
+}
+
+
+footer {
+    background-color: #204757E5;
+    padding: 35px;
+    color: white;
+}
