@@ -10,8 +10,7 @@ header {
     flex-direction: column;
 }
 
-#cart {
-}
+
 
 #cart2 {
     display: none;
@@ -117,4 +116,21 @@ footer {
     background-color: #204757E5;
     padding: 35px;
     color: white;
+    text-align: center;
 }
+
+footer a,
+footer li {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 25px;
+    
+}
+
+footer i {
+    padding: 30px;
+}
+
