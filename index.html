@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b12df852c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Home page Rainydays</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="./media/rainy days2.png" alt="rainydays-logo">
-        </div>
-        <div>
+        <div class="menu">
+            <img src="./media/rainy days2.png" alt="rainydays-logo" id="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -20,21 +20,26 @@
                     <li><a href="women.html">Women</a></li>
                     <li><a href="contact.html">Contact us</a></li>
                     <li><a href="aboutus.html">About us</a></li>
+                    <i class="far fa-user"></i>
+                    <i class="fas fa-shopping-cart"></i>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <h1>News</h1>
-        <img src="./media/greg-rosenke-mqovRfU8YLY-unsplash.jpg" alt="2 people looking out in the horisont">
+    <main class="news">
+        <div >
+            <h1 id="tekst">News</h1>
+            <img src="./media/greg-rosenke-mqovRfU8YLY-unsplash.jpg" alt="2 people looking out in the horisont" id="image-news">
+        </div>
+            
     </main>
     <aside class="men">
         <h2>Men</h2>
-        <img src="./media/queens-IxbXILf6EyQ-unsplash.jpg" alt="Man in orange raincoat looking at the camera">
+        <img src="./media/queens-IxbXILf6EyQ-unsplash.jpg" alt="Man in orange raincoat looking at the camera" id="image-men">
     </aside>
     <aside class="women">
         <h2>Women</h2>
-        <img src="./media/amir-sahihi-XnGash77K9w-unsplash.jpg" alt="2 women in a green and a blue raincoat looking at the camera">
+        <img src="./media/amir-sahihi-XnGash77K9w-unsplash.jpg" alt="2 women in a green and a blue raincoat looking at the camera" id="image-women">
     </aside>
     <footer>
         <nav>
@@ -42,10 +47,18 @@
                 <li>
                     <li><a href="contact.html">Contact us</a></li>
                     <li><a href="aboutus.html">About us</a></li>
-
                 </li>
             </ul>
         </nav>
+        <div>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div>
+            <i class="fab fa-facebook-f"></i>
+        </div> 
+        <div>
+            <i class="fab fa-instagram"></i>
+        </div>   
     </footer>
     
 </body>

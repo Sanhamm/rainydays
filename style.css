@@ -1,0 +1,67 @@
+header{
+background: #2A708C;
+height: 8rem;
+margin-top: 0px;
+}
+
+#logo {
+    max-width: 13rem;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.menu {
+    color: white;
+    list-style-type: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 45px;
+}
+
+.menu i {
+    padding-left: 150px;
+    font-size: 1.7rem;    
+}
+
+.news {
+height: 900px;
+background: rgba(42, 112, 140, 0.7);
+text-align: center;
+color: white;
+}
+
+#image-news {
+    width: 981px;
+    height: 694px;
+    left: 230px;
+    top: 173px;
+    margin-top: 80px;
+    border-radius: 70px;    
+}
+
+
+.news h1 {
+    margin-top: 0px;
+}
+
+.men {  
+
+}
+
+.women {
+
+}
+
+footer {
+
+}
