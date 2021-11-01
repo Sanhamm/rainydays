@@ -124,14 +124,12 @@ footer li {
     list-style-type: none;
     text-decoration: none;
     color: white;
-    display: inline-block;
-    padding: 5px;
-    text-align: center;
+    padding: 10px;
     
 }
 
 footer i {
-    padding: 5px;
-    margin-left: 10px;
+    padding: 10px;
+    flex-direction: column;
 }
 
