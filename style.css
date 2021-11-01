@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+#login {
+    display: none;
+}
+
 body {
     background-color: #EFEEEE;
     margin: 0;
@@ -87,7 +91,6 @@ h1, h2 {
 
 .men {
     margin-top: 200px;
-    margin-left: 200px;
 }
 .men img {
     height: 296px;
@@ -95,9 +98,7 @@ h1, h2 {
     border-radius: 50px;
     object-fit: cover;
 }
-.men h2 {
-    margin-left: 160px;
-}
+
 
 .women {
     margin-top: 200px;
@@ -110,16 +111,16 @@ h1, h2 {
     object-fit: cover;
 }
 
-.women h2 {
-    margin-left: 140px;
-}
+
 .sideomside{
     display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 .men, 
 .women {
-    margin-left: 330px;
     margin-top: 50px;
+    padding: 0px;
 }
 
 footer {
