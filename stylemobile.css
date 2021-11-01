@@ -114,9 +114,9 @@ main h1 {
 
 footer {
     background-color: #204757E5;
-    padding: 35px;
     color: white;
-    text-align: left;
+    text-align: center;
+    padding:35px;
 }
 
 footer a,
@@ -126,6 +126,7 @@ footer li {
     color: white;
     display: inline-block;
     padding: 5px;
+    text-align: center;
     
 }
 
