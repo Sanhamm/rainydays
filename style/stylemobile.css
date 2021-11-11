@@ -110,7 +110,8 @@ nav .hamenu a {
 
 main h1,
 .men h2,
-.women h2 {
+.women h2,
+h2 {
     text-align: center;
     color: white;
     font-weight: 400;
@@ -141,4 +142,21 @@ footer i {
     justify-content: space-around;
     margin-right: 25px;
     padding: 10px;
+}
+
+.hero {
+width: 100%;
+}
+
+.produkt {
+    flex-direction: column;
+}
+
+.produkt img{
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: 6px solid white;
 }
