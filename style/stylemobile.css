@@ -61,6 +61,7 @@ nav .hamenu li {
     width: fit-content;
 }
     
+    
 
 nav .hamenu a {
     text-decoration: none;
@@ -69,6 +70,10 @@ nav .hamenu a {
     display: block;
     text-align: center;
     font-size: 2.5rem;
+}
+
+nav .hamenu a:hover {
+color: lightgrey;
 }
 
 #buggi {
@@ -144,6 +149,10 @@ footer li {
     
 }
 
+footer a:hover {
+    color: lightgrey;
+}
+
 footer i {
     flex-direction: column;
     display: flex;
@@ -191,6 +200,9 @@ button {
     font-size: 1.3rem;
 }
 
+button:hover {
+    color: lightgrey;
+}
 
 .fname,
 .lname,
@@ -213,3 +225,35 @@ form input {
     margin-top: 20px;
     width: 40%;
 }
+
+.sander {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.sanderp {
+    padding: 25px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    
+}
+
+.pay img {
+    width: 100px;
+    border: solid 2px #204757;
+
+}
+
+.pay {
+    display: block;
+    padding: 20px 65px;
+    border-top: thin 3px black;
+    margin-bottom: 50px;
+}
+.checkout {
+}
+
