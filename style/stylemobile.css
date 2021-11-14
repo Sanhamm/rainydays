@@ -1,7 +1,11 @@
 body {
-    background-color: #2A708C;
+    background-color: #E5E5E5;
     margin: 0;
     padding: 0;
+}
+.grid-container {
+    background-color: #2A708C;
+
 }
 
 header {
@@ -118,6 +122,10 @@ h2 {
     margin-bottom: 0px;
 }
 
+.h1{
+    color: black;
+}
+
 footer {
     background-color: #204757E5;
     color: white;
@@ -148,24 +156,60 @@ footer i {
 width: 100%;
 }
 
+
 .produkt {
     flex-direction: column;
+    margin-top: 15px;
+    display: flex;
 }
 
 .produkt img{
     width: 70%;
     height: 400px;
     object-fit: cover;
-    display: block;
-    margin: auto;
-    border: 6px solid white;
+    display: flex;
+    margin-left: 65px;
+    border: 8px solid #204757;
 }
 h3,
 p {
-    color: white;
+    color: black;
 }
 
 .produkt h3,
 .produkt p {
-    margin-left: 70px;
+    margin-left: 65px;
+}
+
+button {
+    color: white;
+    background: #038C7F;
+    border: none;
+    margin-left: 65px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+.fname,
+.lname,
+.email,
+.mld {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: white;
+    margin-left: 0px;
+}
+
+form input {
+    margin-left: 8px;
+    width: 47%;
+}
+
+.submit {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 40%;
 }
