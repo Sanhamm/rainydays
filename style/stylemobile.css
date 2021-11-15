@@ -8,6 +8,11 @@ body {
 
 }
 
+.grid-container a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 header {
     background-color: #2A708C;
     display: flex;
