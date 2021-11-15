@@ -256,3 +256,27 @@ form input {
     margin-bottom: 50px;
 }
 
+.sidekontakt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+}
+
+.minside {
+    height: 300px;
+    }
+    
+
+.contact label {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    color: white;
+    
+}
+.contact input {
+    display: block;
+    width: 200px;
+}
