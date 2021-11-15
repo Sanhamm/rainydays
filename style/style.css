@@ -42,7 +42,9 @@ h1, h2 {
     margin-top: 10px;
 }
 
-
+.bakgrunn {
+    background-color: #2A708C;
+}
 
 .menu {
     color: white;
