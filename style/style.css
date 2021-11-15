@@ -289,23 +289,24 @@ form input {
 .jakkeside img {
     height: 700px;
     border: solid 8px #204757;
+    margin-left: 80px;
     margin-right: 50px;
-    text-align: center;
 }
 
 .jakkeside {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
 }
 
 .jakkeside p {
-    max-width: 40%;
+    max-width: 60%;
     text-align: center;
     border: solid 1px #204757;
+    font-size: 2rem;
 }
 
 .strl li{
+    display: inline-block;
     border: solid 1px black;
     padding: 2px;
     margin-left: 10px;
@@ -313,7 +314,7 @@ form input {
 }
 
 .strl li:first-child {
-
+    margin-left: 80px;
 }
 
 .strl li:hover {
@@ -322,5 +323,35 @@ form input {
 }
 
 .produktknapp {
+    margin-left: 80px;
     margin-top: 50px;
+}
+
+.color i {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.color i:first-child {
+    margin-left: 80px;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.color i:focus {
+    border: solid 1px black;
+}
+
+.color i:hover {
+    border: solid 1px black;
 }
