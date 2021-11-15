@@ -177,8 +177,9 @@ width: 100%;
     height: 400px;
     object-fit: cover;
     display: flex;
-    margin-left: 65px;
+    margin-left: 10%;
     border: 8px solid #204757;
+    margin-right: 20%;
 }
 h3,
 p {
@@ -187,14 +188,14 @@ p {
 
 .produkt h3,
 .produkt p {
-    margin-left: 65px;
+    margin-left: 10%;
 }
 
 button {
     color: white;
     background: #038C7F;
     border: none;
-    margin-left: 65px;
+    margin-left: 10%;
     padding: 10px 25px;
     margin-bottom: 20px;
     font-size: 1.3rem;

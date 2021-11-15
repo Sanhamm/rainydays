@@ -32,6 +32,7 @@ header{
 
 h1, h2 {
     font-family: sawarabi mincho, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 #logo {
@@ -65,15 +66,16 @@ h1, h2 {
     color: lightgrey;
 }
 
+.news img:hover {
+    border: solid 2px grey;
+}
+
 .sideomside a {
     color: black;
     text-decoration: none;
     font-size: 1.3rem;
 }
 
-.sideomside a:hover {
-    color: darkgrey;
-}
 
 .menu a:hover {
     color: lightgrey;
@@ -113,6 +115,7 @@ h1, h2 {
     font-weight: 400;
 }
 
+
 .men {
     margin-top: 200px;
 }
@@ -139,7 +142,6 @@ h1, h2 {
 
 .sideomside{
     display: flex;
-    text-align: center;
     justify-content: space-around;
 }
 
@@ -180,4 +182,145 @@ footer li {
 footer i {
     margin-left: 200px;
     font-size: 1.7rem;
+}
+
+.hero {
+    width: 100%;
+    height: 1200px;
+    object-fit: fill;
+    border-bottom: solid 10px #204757;
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+.produkt img {
+    height: 400px;
+    border: solid 12px #204757;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 250PX;
+}
+
+button {
+    color: white;
+    background: #038C7F;
+    border: none;
+    padding: 8px 25px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    
+}
+
+button:hover {
+    color: lightgrey;
+}
+
+.sideomside p {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sideomside h3 {
+    text-align: left;
+}
+
+#contact {
+    color: white;
+}
+
+.fname,
+.lname,
+.email,
+.mld {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: white;
+    margin-left: 0px;
+}
+
+
+
+form input {
+    margin-left: 8px;
+    width: 20%;
+}
+
+.kontaktknapp {
+    margin-bottom: 200px;
+}
+
+.grid-container {
+    background-color: #2A708C;
+}
+
+.sander {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+#about {
+    color: white;
+}
+
+.sanderp {
+    padding: 25px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    max-width: 500px;
+    font-size: 2rem; 
+}
+
+.sanderflex {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    margin: 100px 200px 100px 100px;
+}
+
+.jakkeside img {
+    height: 700px;
+    border: solid 8px #204757;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.jakkeside {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.jakkeside p {
+    max-width: 40%;
+    text-align: center;
+    border: solid 1px #204757;
+}
+
+.strl li{
+    border: solid 1px black;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.strl li:first-child {
+
+}
+
+.strl li:hover {
+    background-color: grey;
+    cursor: default;
+}
+
+.produktknapp {
+    margin-top: 50px;
 }
