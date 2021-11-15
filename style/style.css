@@ -355,3 +355,50 @@ form input {
 .color i:hover {
     border: solid 1px black;
 }
+
+.minside {
+    height: 500px;
+    }
+    
+.contact {
+    color: white;
+    
+}
+.contact input {
+    display: block;
+    width: 200px;
+}
+
+.contact label {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sidekontakt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30%;
+    margin-bottom: 150px;
+}
+
+.pay img {
+    width: 300px;
+    border: solid 2px #204757;
+
+}
+
+.pay {
+    display: block;
+    padding: 40px 130px;
+    border-top: thin 3px black;
+    margin-bottom: 80px;
+}
+
+.pay p {
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.checkout {
+    margin-left: 130px;
+}
